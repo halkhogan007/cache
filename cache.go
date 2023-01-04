@@ -8,8 +8,8 @@ type cache struct {
 	memory map[string]interface{}
 }
 
-func New() *cache {
-	return &cache{
+func New() cache {
+	return cache{
 		memory: make(map[string]interface{}),
 	}
 }
