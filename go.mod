@@ -1,3 +1,3 @@
-go 1.18
+module go.mod
 
-module main
+go 1.19
